@@ -1,0 +1,617 @@
+	body
+	{
+		padding-top: 0;
+	}
+	.navbar-inverse
+	{
+		background-color: #fff;
+
+	}
+	.panel-default>.panel-heading
+	{
+		background-color: #ee2b2f;
+		color: #fff;
+	}
+	
+	.2nd-callout
+	{
+		background-color: #000080;
+	}
+	header.carousel .item, header.carousel .item.active, header.carousel .carousel-inner {
+    height: auto;
+	}
+	header.carousel
+	{
+		height:auto;
+	}
+	.navbar
+	{
+		margin-bottom:0;
+		height:70px;
+
+	}
+	
+	.no-show
+	{
+		color:#fff;
+	}
+	.nav-number
+	{
+		float:right;
+		padding:6px 12px;
+		font-size:1.5em;
+		
+	}
+	.number
+	{
+		color: #ee2b2f;
+	}
+	.main-info
+	{
+		padding-top: 120px
+	}
+	.margin-right-nil
+	{
+		margin-right:0;
+	}
+	.bottom-call-number
+	{
+		text-align:center;
+		font-size: 2em;
+	}
+	.bg-color
+	{
+		background-color: #00264b;
+		color: #fff;
+	}
+	.full-width
+	{
+		width:100%;
+		height:100%;
+	}
+	.margin-bottom
+	{
+		margin-bottom: 20px;
+	}
+	.bg-color-light
+	{
+		background-color: #ee2b2f;
+		min-height: 250px;
+		border-top:4px solid #00264b;
+	}
+	.panel-default 
+	{
+    border-color: none !important;
+	}
+
+	.panel {
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: none;
+    border-radius: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	}
+	.selected
+	{
+    	background-color: #ee2b2f !important;
+	}
+	.page-header-2
+	{
+		text-align: center;
+		border-bottom: none;
+		margin: 40px 0 40px;
+		font-family: 'Roboto Slab', serif;
+	}
+	.text-clr-dark
+	{
+		color: #000;
+	}
+	.footer-margin
+	{
+		margin-top: 40px;
+
+
+	}
+	.text__clr__wht
+	{
+		color:#fff;
+
+	}
+	.text-center
+	{
+		text-align: center;
+	}
+	.text-clr-white
+	{
+		color: #fff;
+		margin-bottom: 25px;
+	}
+	.page-header
+	{
+		border-bottom: none;
+	}
+	.panel-heading-2
+	{
+		border-bottom:none;
+		border-top-left-radius: 0;
+    	border-top-right-radius: 0;
+	}
+	.text-lrg
+	{
+		font-size: 1.4em;
+	}
+	.foot-info-negmar
+	{
+		margin-top:-20px;
+		text-indent:15px;
+	}
+	.align-center
+	{
+		text-align: center;
+
+	}
+	footer
+	{
+		margin:0;
+		width:100%;
+	}
+	.star {
+        visibility: hidden;
+    }
+
+    .fadeIn {
+        -webkit-animation: animat_show 1.5s;
+        animation: animat_show 1.5s;
+        visibility: visible !important;
+    }
+
+    @-webkit-keyframes animat_show{
+        0%{opacity:0}
+        100%{opacity:1}
+    }
+    .panel-2
+    {
+    margin-bottom: 20px;
+    background-color: transparent;
+	}
+	#success_message
+	{ 
+		display: none;
+	}
+	.well
+	{
+		border:none;
+		border-radius:0;
+		margin-bottom: 0;
+	}
+	.footer-callnow
+	{
+		font-size: 2em;
+		float: left;
+	}
+	.row
+	{
+		margin-right:0;
+		margin-left: 0;
+	}
+	.btn-clr
+	{
+		background-color: #e5e5e5;
+		border-color: #ccc;
+		color: #555;
+	}
+	.navbar-inverse 
+	{
+    	background-color: #00264b;
+    	opacity: 1;
+    	border-color: #000;
+	}
+	.navbar-inverse .container
+	{
+    	
+    	opacity: 1;
+	}
+	.navbar-inverse .nav-number .nav-show
+	{
+    	
+    	opacity: 1;
+	}
+	.line-height
+	{
+		line-height: 25px;
+	}
+	.float-left
+	{
+		float:left;
+	}
+	.float-right
+	{
+		float:right;
+
+	}
+	
+	.nav-number .float-left
+	{
+		margin-left: 20px;
+	}
+	ul.no-float-right li
+	{
+		display: inline;
+		float:left;
+		margin-right:35px;
+		font-size: .9em;
+	}
+	ul.float-left
+	{
+		width: 50%;
+	}
+	.navbar-lineheight
+	{
+		line-height: 2.5em;
+	}
+	ul
+	{
+		margin-bottom: 0px;
+	}
+	.m-right
+	{
+		margin-left: 20px;
+	}
+	.menu-color
+   	{
+   		color:#fff;
+   	}
+   	.page-header-3
+	{
+		text-align: center;
+		border-bottom: none;
+		margin: 40px 0 40px;
+		font-family: 'Roboto Slab', serif;
+		line-height: 0;
+		text-shadow: 2px 2px 5px #fff;
+	}
+	.box-height-1
+	{
+		height:1px;
+		border-bottom: 1px solid #eee;
+
+	}
+	.margin-bottom
+	{
+		margin-bottom: 50px;
+	}
+	.carousel
+	{
+		margin-top: 70px;
+
+	}
+	.navbar-header img{
+		height:50px;
+		width:100px;
+	}
+
+	.mtop{
+		margin-top: 69px;
+	}
+
+
+/*	.mtop:before{
+		content: "";
+		position: absolute;
+		background: rgba(105, 104, 104, 0.59);
+		width: 100%;
+		height: 100%;
+		
+	}*/
+
+
+/*	.bg-img
+	{
+		background: url("../images/truck_desktop.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		background-position: center center;
+		height: 500px;
+		width: 100%;`
+		margin-top: 69px;
+	}*/
+	#element-to-animate 
+	{
+        animation-duration: 2s;
+        animation-delay: .5s;
+
+	}
+	#pacific__animate 
+	{
+        animation-duration: 2s;
+        animation-delay: .5s;
+
+	}
+	#boxes-to-animate 
+	{
+        animation-duration: 2s;
+        animation-delay: 1s;
+
+	}
+	#boxes-to-animate-2
+	{
+        animation-duration: 2s;
+        animation-delay: 1s;
+
+	}
+	#boxes-to-animate-3
+	{
+        animation-duration: 2s;
+        animation-delay: 1s;
+
+	}
+	#text-to-animate-2
+	{
+        animation-duration: 2s ;
+        animation-delay:.5s ;
+
+	}
+	#element-to-animate-2
+	{
+        animation-duration: 2s;
+        animation-delay:.5s ;
+
+	}
+	#info
+	{
+        animation-duration: 3s;
+        animation-delay: ;
+
+	}
+	.cooling
+	{
+		float:right;
+
+	}
+	footer a
+	{
+		color: inherit;
+	}
+	/*.scrollmagic-pin-spacer
+	{
+		margin-top: 100px;
+	}*/
+	.hero-image
+	{
+		margin-top: 70px;
+	}
+	
+
+	@media only screen and (max-width: 900px) {
+
+	.main-info
+	{
+		padding-top: 80px
+	}
+
+    
+	} 
+	@media only screen and (max-width: 1000px) {
+
+	ul.float-left li
+	{
+		
+		font-size: .8em;
+
+	}
+	.nav-number
+	{
+		
+		font-size:1.2em;
+		
+	}	
+	ul.float-left
+	{
+		
+		padding-left: 20px;
+
+	}
+	.navbar-lineheight
+	{
+		line-height: 3em;
+	}
+	ul.no-float-right li hr
+	{
+		color:#00014b;
+	}
+	@media only screen and (max-width: 1200px) {
+	.cooling
+	{
+		float:none;
+	}
+	.fill
+	{
+		background-image:url('images/truck_tablet.jpg');
+	}
+	.bg-img
+	{
+		background: url("../images/truck_tablet.jpg");
+		background-repeat:no-repeat;
+		background-size:cover;
+		-webkit-background-size:cover;
+		-moz-background-size:cover;
+		-o-background-size:cover;
+		height: 500px;
+		width: 100%;
+		margin-top: 69px;
+		background-size: contain;
+	}
+
+	}	
+	@media only screen and (max-width: 767px) {
+	.navbar-collapse {
+    padding-right: 0px;
+    padding-left: 0px;
+	}
+	ul.no-float-right li
+	{
+		display: block;
+		float:right;
+		border:1px solid #00014b;
+		font-size: .9em;
+		background-color:#00264B;
+		margin-right:0;
+		text-align: right;
+		padding-right: 15px;
+		width:100%;
+
+	}
+	.pad-bot
+	{
+		margin-bottom: 40px;
+	}
+	.navbar-inverse .navbar-toggle:hover 
+	{
+    	background-color: #a1a1a1;
+	}
+	.navbar-inverse .navbar-toggle:focus
+	{
+		background-color: #00264B;
+	}
+	
+	ul.no-float-right li:hover
+	{
+		background-color: #0064B5;
+		cursor:pointer;
+	}
+	ul
+	{
+		float:none;
+	}
+
+	
+	.dropdown-nav
+	{
+		margin-top:60px;
+	}
+	.navbar-collapse
+	{
+		border:0;
+	}
+	.no-float-right
+	{
+		float:none;
+	}
+	.navbar-nav 
+	{
+    	margin: 0;
+    }
+    .navbar-inverse .navbar-toggle
+    {
+    	background-color: #00264b;
+    	border-color: #fff;
+    	margin-bottom: 0;
+    }
+    .padding-nil
+	{
+		padding:8px 0;
+	}
+
+		
+	}
+
+	@media only screen and (max-width: 720px) {
+
+	
+	ul.float-left li
+	{
+		
+		margin-right: 20px;
+		
+	}	
+	.center-text
+	{
+		text-align: center;
+	}
+
+	}
+	
+	@media only screen and (max-width: 600px) {
+    .fill
+	{
+		background-image:url('images/truck_small-tablet.jpg');
+	}
+
+} 
+	@media only screen and (max-width: 470px) {
+
+	.no-show
+	{
+		display: none;
+	}
+	.mobile-ft-align
+	{
+		text-align: center;
+		max
+	}
+	}
+
+
+	@media only screen and (max-width: 420px) {
+    .fill
+	{
+		background-image:url('images/truck_mobile.jpg');
+	}
+	.nav-number
+	{
+		font-size: 1.3em;
+		padding:8px 0;
+	}
+	.no-show
+	{
+		display:none;
+	}
+
+
+	.footer-callnow
+	{
+		font-size: 1.5em;
+	}
+	body
+	{
+		padding-top: ;
+	}
+	.navbar-inverse 
+	{
+    	opacity: 1;
+	}
+	.mtop
+	{
+		margin-top: 20px;
+
+	}
+	.nav-number .float-left
+	{
+		margin-left: 10px;
+		s
+	}
+
+} 
+
+@media only screen and (max-width: 330px) {
+
+	.number
+	{
+		display: none;
+	}
+	.navbar 
+	{
+    
+    height: 72px;
+	}
+    .main-navbar .navbar .navbar-toggle
+	{
+		margin-right: 3em;
+	    transform: translateZ(0px);
+	}
+	
+}
