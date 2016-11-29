@@ -205,86 +205,57 @@
                
             </div>
         </div>
-        <!-- /.row -->
-
-        
-
-        <!-- Call to Action Section -->
-        
-       
-
-       
-    
-        
-    
     </div>
     
-         
-<div id="contact-us" class="container-fluid well footer-margin" data-offset="50">
-
-    <form class=" col-lg-12 form-horizontal" action="contact-form-handler.php" method="post" id="contact_form">
-<fieldset>
-
-<!-- Form Name -->
-<legend>Contact Us Today!</legend>
-
-<!-- Text input-->
-<div class="col-md-3"></div>
-<div class="form-group">
-  <div class="col-md-6 inputGroupContainer">
-  <div class="input-group">
-  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
-  <input name="name" placeholder="Name" class="form-control" type="text" required>
-    </div><br>
-
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
-  <input name="phone" placeholder="(555)555-1212" class="form-control" type="text">
-    </div><br>
-
-  <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
-  <input name="email" placeholder="E-Mail Address" class="form-control" type="email" required>
-    </div><br>
-
-    <div class="input-group">
-        <span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
-            <textarea class="form-control" name="comment" placeholder="How can we help?"></textarea>
-  </div><br>
-
-  <button type="submit" id="submit" name="submit" value="Send" class="btn btn-primary">Send Message
-  </button>
-
-  </div>
-</div>
-</fieldset>
-</form>
-</div>
-
-
-
-            <div class="row">
-                  <div class="col-md-6 col-md-offset-3">
-                      <div class="contact-form">
-                          <h3>Contact Us</h3>
-                          <form id="main-contact-form" name="contact-form" method="post" action="contact-form-handler.php">
-                              <div class="form-group">
-                                  <input type="text" name="name" class="form-control" placeholder="Name" required>
-                              </div>
-                              <div class="form-group">
-                                  <input type="email" name="email" class="form-control" placeholder="Email" required>
-                              </div>
-                              <!-- <div class="form-group">
-                                  <input type="text" name="subject" class="form-control" placeholder="Subject" required>
-                              </div> -->
-                              <div class="form-group">
-                                  <textarea name="message" class="form-control" rows="8" placeholder="Message" required></textarea>
-                              </div>
-                              <button type="submit" id="submit" name="submit" value="Send" class="btn btn-primary">Send Message</button>
-                          </form>
-                      </div>
-                  </div>
+    <div class="container">
+          <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+              <h1 class="page-header text-center">Contact Form Example</h1>
+            <form class="form-horizontal" role="form" method="post" action="index.php">
+              <div class="form-group">
+                <label for="name" class="col-sm-2 control-label">Name</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="<?php echo htmlspecialchars($_POST['name']); ?>">
+                  <?php echo "<p class='text-danger'>$errName</p>";?>
+                </div>
               </div>
+              <div class="form-group">
+                <label for="email" class="col-sm-2 control-label">Email</label>
+                <div class="col-sm-10">
+                  <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="<?php echo htmlspecialchars($_POST['email']); ?>">
+                  <?php echo "<p class='text-danger'>$errEmail</p>";?>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message" class="col-sm-2 control-label">Message</label>
+                <div class="col-sm-10">
+                  <textarea class="form-control" rows="4" name="message"><?php echo htmlspecialchars($_POST['message']);?></textarea>
+                  <?php echo "<p class='text-danger'>$errMessage</p>";?>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="human" class="col-sm-2 control-label">2 + 3 = ?</label>
+                <div class="col-sm-10">
+                  <input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
+                  <?php echo "<p class='text-danger'>$errHuman</p>";?>
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                  <input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="col-sm-10 col-sm-offset-2">
+                  <?php echo $result; ?>  
+                </div>
+              </div>
+            </form> 
+          </div>
+        </div>
+      </div>   
+
+
 
    <footer class="footer-padding bg-color-light">
         
