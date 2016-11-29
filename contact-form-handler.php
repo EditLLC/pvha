@@ -14,11 +14,6 @@
 		if (!$_POST['name']) {
 			$errName = 'Please enter your name';
 		}
-
-		// Check if phone number has been entered
-		if (!$_POST['phone']) {
-			$errPhone = 'Please enter your phone number';
-		}
 		
 		// Check if email has been entered and is valid
 		if (!$_POST['email'] || !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
@@ -31,7 +26,7 @@
 		}
  
 // If there are no errors, send the email
-if (!$errName && !$errEmail && !$errMessage && !$errHuman) {
+if (!$errName && !$errEmail && !$errMessage) {
 	if (mail ($to, $subject, $body, $from)) {
 		$result=header('Location: contact-form-thank-you.html');
 		// $result='<div class="alert alert-success">Thank You! I will be in touch</div>';
